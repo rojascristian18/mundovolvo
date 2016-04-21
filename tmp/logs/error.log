@@ -11917,3 +11917,12 @@ Request URL: /cake/volvo/backend/img/loading.gif
 Stack Trace:
 #0 C:\wamp\www\cake\volvo\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-04-21 13:21:52 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /cake/volvo/backend/img/loading.gif
+Stack Trace:
+#0 C:\wamp\www\cake\volvo\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
