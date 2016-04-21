@@ -21,6 +21,7 @@
 					</tr>
 				</table>
 				<div class="row">
+					<h2>Actuales</h2>
 					<!-- Load Gallery Images -->
 					<div id="image-box" data-galeria="<?=$galeria_id;?>"></div>
 				</div>
