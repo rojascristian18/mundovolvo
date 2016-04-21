@@ -1,0 +1,17 @@
+[23-Mar-2016 10:19:00 America/Santiago] PHP Fatal error:  Call to a member function find() on a non-object in /home/brandon/public_html/qa/volvocars/web/sitio/Controller/TipoEventosController.php on line 91
+[23-Mar-2016 10:20:44 America/Santiago] PHP Fatal error:  Call to a member function find() on a non-object in /home/brandon/public_html/qa/volvocars/web/sitio/Controller/TipoEventosController.php on line 91
+[23-Mar-2016 10:21:31 America/Santiago] PHP Fatal error:  Call to a member function find() on a non-object in /home/brandon/public_html/qa/volvocars/web/sitio/Controller/TipoEventosController.php on line 91
+[23-Mar-2016 10:21:47 America/Santiago] PHP Fatal error:  Call to undefined method TipoeventosController::find() in /home/brandon/public_html/qa/volvocars/web/sitio/Controller/TipoEventosController.php on line 91
+[23-Mar-2016 10:22:00 America/Santiago] PHP Fatal error:  Call to a member function find() on a non-object in /home/brandon/public_html/qa/volvocars/web/sitio/Controller/TipoEventosController.php on line 91
+[23-Mar-2016 10:24:32 America/Santiago] PHP Fatal error:  Call to a member function find() on a non-object in /home/brandon/public_html/qa/volvocars/web/sitio/Controller/TipoEventosController.php on line 91
+[23-Mar-2016 10:24:48 America/Santiago] PHP Fatal error:  Call to a member function find() on a non-object in /home/brandon/public_html/qa/volvocars/web/sitio/Controller/TipoEventosController.php on line 91
+[23-Mar-2016 10:25:54 America/Santiago] PHP Fatal error:  Call to a member function find() on a non-object in /home/brandon/public_html/qa/volvocars/web/sitio/Controller/TipoEventosController.php on line 91
+[23-Mar-2016 10:26:54 America/Santiago] PHP Fatal error:  Call to a member function find() on a non-object in /home/brandon/public_html/qa/volvocars/web/sitio/Controller/TipoEventosController.php on line 91
+[23-Mar-2016 10:27:30 America/Santiago] PHP Fatal error:  Call to a member function find() on a non-object in /home/brandon/public_html/qa/volvocars/web/sitio/Controller/TipoEventosController.php on line 91
+[23-Mar-2016 10:27:35 America/Santiago] PHP Fatal error:  Call to a member function find() on a non-object in /home/brandon/public_html/qa/volvocars/web/sitio/Controller/TipoEventosController.php on line 91
+[23-Mar-2016 10:30:40 America/Santiago] PHP Fatal error:  Call to a member function find() on a non-object in /home/brandon/public_html/qa/volvocars/web/sitio/Controller/TipoEventosController.php on line 90
+[23-Mar-2016 10:31:10 America/Santiago] PHP Fatal error:  Call to a member function find() on a non-object in /home/brandon/public_html/qa/volvocars/web/sitio/Controller/TipoEventosController.php on line 90
+[23-Mar-2016 10:44:06 America/Santiago] PHP Fatal error:  Cannot use object of type SessionHelper as array in /home/brandon/public_html/qa/volvocars/web/sitio/View/Layouts/default.ctp on line 36
+[23-Mar-2016 10:44:06 America/Santiago] PHP Fatal error:  Cannot use object of type SessionHelper as array in /home/brandon/public_html/qa/volvocars/web/sitio/View/Layouts/default.ctp on line 36
+[24-Mar-2016 16:15:23 America/Santiago] PHP Parse error:  syntax error, unexpected ')' in /home/brandon/public_html/qa/volvocars/web/sitio/View/Elements/Template/footer.ctp on line 28
+[24-Mar-2016 16:15:23 America/Santiago] PHP Parse error:  syntax error, unexpected ')' in /home/brandon/public_html/qa/volvocars/web/sitio/View/Elements/Template/footer.ctp on line 28

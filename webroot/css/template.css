@@ -1,0 +1,686 @@
+/*
+CSS Template
+*/
+body{background-color: #EDEDED;}
+*{font-family: 'VolvoSansPro-Regular';}
+.custom{width: 1350px;max-width: 100%;margin-left: auto;margin-right: auto;}
+.col-5{width: 20%;float: left;padding: 0 15px;}
+.separador{height: 1px;background-color: #000;width: 100%;}
+.show{height: auto !important;}
+.inline{display: inline-block;}
+#content-page{margin-top: 70px;display: block;}
+.show span{cursor: inherit !important;}
+.container-fluid{background-color: #000;}
+.fancybox{width: 100%;height: 100%;display: block;}
+/*************************************************************************
+	Header
+************************************************************************/
+#header{
+	background-color: #000;
+	width: 100%;
+	padding: 5px 0 0;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+}
+
+#header .logo{
+	max-width: 85px;
+}
+
+#header span{
+	font-size: 16px;
+	color: #fff;
+	padding: 20px;
+	cursor: pointer;
+	width: 30%;
+	display: block;
+	font-family: 'VolvoSansPro-Light';
+}
+
+#menu-principal{
+	width: 100px;
+}
+
+#menu-principal:hover #menu-body{
+	height: auto;
+}
+
+#menu-principal #menu-body{
+	z-index: 1000;
+	position: absolute;
+	width: 293.5%;
+}
+
+
+/*************************************************************************
+	Modelos
+************************************************************************/
+#menu-body{
+	height: 0;
+	overflow: hidden;
+	background-color: #EDEDED;
+	min-height: 0;
+	width: auto;
+	top:65px;
+	z-index: 100;
+	-webkit-transition: all 0.3s ease-in;
+	   -moz-transition: all 0.3s ease-in;
+	    -ms-transition: all 0.3s ease-in;
+	     -o-transition: all 0.3s ease-in;
+	        transition: all 0.3s ease-in;
+}
+
+#menu-body:hover{
+	height: auto;
+}
+
+#menu-body .menu-container{
+	width: 85%;
+	padding: 15px 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu-body .menu-container .titulo{
+	color: #002F58;
+	margin-bottom: 0;
+	margin-left: 15px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'VolvoSansPro-Light';
+}
+
+#menu-body .menu-container .container-model{
+	position: relative;
+	display: block;
+	margin: 25px 0;
+	float: left;
+	width: 100%;
+}
+
+#menu-body .menu-container .container-model .container-item{
+	display: block;
+	width: 80%;
+}
+
+#menu-body .menu-container .container-model .container-item .item-title{
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#menu-body .menu-container .container-model .container-item .item-title span{
+	font-size: 9px;
+	color: #002A5C;
+	padding: 0px;
+	width: auto;
+	display: inline-block;
+}
+
+#menu-body .menu-container .container-model .container-item img{
+	max-width: 80%;
+	display: block;
+	margin: 15px auto;
+}
+
+#menu-body .menu-container .container-model .container-item .side{
+	display: none;
+}
+
+#menu-body .menu-container .container-model .container-item:hover .side{
+	display: block;
+}
+
+#menu-body .menu-container .container-model .container-item:hover .first{
+	display: none;
+}
+
+#menu-body .menu-container .container-model .container-item .btn{
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+	display: block;
+	color: #002F58;
+	border-color: #002F58;
+	border-radius: 0;
+	background-color: transparent;
+	-webkit-transition: background-color .25s ease-out;
+	   -moz-transition: background-color .25s ease-out;
+	    -ms-transition: background-color .25s ease-out;
+	     -o-transition: background-color .25s ease-out;
+	        transition: background-color .25s ease-out;
+}
+
+#menu-body .menu-container .container-model .container-item .btn:after{
+	content: "MÁS INFORMACIÓN";
+	background-color: #002F58;
+	position: absolute;
+	overflow: hidden;
+	padding: 10px 0;
+	top:0;
+	right:0;
+	left: 0;
+	width: 0;
+	bottom: 0;
+	z-index: 0;
+	color: #ffffff;
+	-webkit-transition: all .15s ease-out;
+	   -moz-transition: all .15s ease-out;
+	    -ms-transition: all .15s ease-out;
+	     -o-transition: all .15s ease-out;
+	        transition: all .15s ease-out;
+}
+
+#menu-body .menu-container .container-model .container-item .btn:hover:after{
+	padding: 10px 16px;
+	width:100%;
+
+}
+
+
+/*************************************************************************
+	Slider
+************************************************************************/
+.single .carousel-indicators{display: none;}
+.inicio .carousel-caption{}
+
+#carousel{margin: 0 -15px;}
+
+#carousel .carousel-inner .carousel-caption{
+	max-width: 590px;
+	left: 27%;
+	right: 27%;
+	bottom: 30%;
+	font-family: 'VolvoSansPro-Regular';
+}
+
+#carousel .carousel-inner .carousel-caption h1 , .inicio .carousel-inner .carousel-caption h1{
+	font-family: 'VolvoBroad';
+	font-size: 6em;
+	text-shadow: 0 1px 4px rgba(0,0,0,.6);
+}
+
+#carousel .carousel-inner .carousel-caption h3{
+	display: none;
+}
+
+#carousel .carousel-inner .view-title{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
+
+#carousel .carousel-inner .view-title h3{
+	color: #fff;
+	margin: 25px 20px;
+	font-size: 21px;
+	line-height: 18px;
+	font-family: 'VWHead-Bold';
+}
+
+.inicio .carousel-inner .carousel-caption h3{
+	font-size: 1.3em;
+	text-shadow: 0 1px 4px rgba(0,0,0,.6);
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block !important;
+}
+
+.inicio .carousel-inner .view-title{
+	display: none !important;
+}
+
+#carousel .carousel-inner .carousel-caption p , .inicio .carousel-inner .carousel-caption p{
+	font-size: 18px;
+}
+
+
+/*************************************************************************
+	formulario
+************************************************************************/
+.form-container {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    width: 280px;
+    padding: 10px;
+    background-color: rgba(0,0,0,1);
+    bottom: 0;
+}
+
+.form-container .form-header {
+	color: #fff;
+	text-align: center;
+	margin-top: 15%;
+}
+
+.form-container .form-header h4 {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: 'VWHead-Bold';
+    margin: 10px 0 0;
+}
+
+.form-container .form-header .fono{
+	margin: 0;
+	line-height: 50px;
+	font-size: 3.5em;
+	color: #fff;
+	font-family: 'VolvoBroad';
+	text-decoration: none;
+}
+
+.form-container .form-body{
+	position: relative;
+	height: 78%;
+}
+
+.form-container .form-body .input label {
+    display: none !important;
+}
+
+.form-container .form-body .form-control{
+    border: none;
+    border-radius: 0;
+    margin: 5px 0;
+    padding: 8px 10px;
+    height: auto;
+    font-size: 12px;
+    resize:none;
+}
+
+.form-container .form-body label{
+	color: #fff;
+}
+.form-container .form-body .inline{
+	width: auto;
+}
+
+.form-container #EventoCrearForm{position: relative;height: 100%;}
+.form-container #EventoMensajeUsuario{height: 30%;}
+
+.form-container .form-body #EventoCuotas{display: inline-block;width: 80px;float: right; font-size: 12px;padding: 5px 10px;}
+
+.form-container .btn-enviar{position:relative;background-color: #1E1D23; color: #fff; width: 100%;display: block;padding: 10px;font-family: 'VWHead-Bold';font-size: 14px; font-weight: bold; text-transform: uppercase;border-radius: 0;}
+.form-container .btn-enviar:after{
+	content: "Enviar";
+	background-color: #ffffff;
+	color: #000;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	overflow: hidden;
+	width: 0;
+	bottom:0;
+	padding: 10px 0;
+	-webkit-transition: all .15s linear;
+	   -moz-transition: all .15s linear;
+	    -ms-transition: all .15s linear;
+	     -o-transition: all .15s linear;
+	        transition: all .15s linear;
+}
+
+.form-container .btn-enviar:hover:after{
+	width: 100%;
+}
+
+/*************************************************************************
+	Modal
+************************************************************************/
+#modal .modal-dialog .modal-title,#modal .modal-dialog .modal-body{
+	font-family: 'VWHead-Bold';
+}
+
+#modal .modal-header {
+    background-color: #000;
+    color: #fff;
+}
+
+#modal .modal-dialog .btn{
+	background-color: #003058;
+	color: #fff;
+}
+
+
+/*************************************************************************
+	View Model
+************************************************************************/
+.description-container{
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 50px 0 80px 0;
+}
+
+.view-title{
+	font-size: 1.6em;
+	font-family: 'VWHead-Bold';
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0;
+}
+
+.view-subtitle{
+	font-size: 3em;
+	font-family: 'VWHead-Bold';
+	color: #fff;
+	margin: 0;
+}
+
+.view-p {
+    max-width: 428px;
+    color: #fff;
+    font-family: 'VWText-Regular';
+    font-size: 1em;
+    display: block;
+    line-height: 25px;
+    margin: 10px auto;
+}
+
+
+.container-gallery{
+	margin: 25px auto;
+	display: block;
+	width: 80%;
+}
+
+.container-gallery > .item-image{
+	width: 25%;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+.container-gallery > .item-image > .hover{
+	height: 0;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0,48,88,0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	cursor: pointer;
+	z-index: 1;
+	-webkit-transition: all 0.25s linear;
+	   -moz-transition: all 0.25s linear;
+	    -ms-transition: all 0.25s linear;
+	     -o-transition: all 0.25s linear;
+	        transition: all 0.25s linear;
+}
+
+.container-gallery > .item-image > img{
+	-webkit-transition: all 2s linear;
+	   -moz-transition: all 2s linear;
+	    -ms-transition: all 2s linear;
+	     -o-transition: all 2s linear;
+	        transition: all 2s linear;
+}
+
+.container-gallery > .item-image:hover img{
+	-webkit-transform: scale(1.1);
+	   -moz-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	     -o-transform: scale(1.1);
+	        transform: scale(1.1);
+	        z-index: 0;
+}
+
+.container-gallery > .item-image > .hover .fa{
+	margin-top: 25%;
+	color: #fff;
+	font-size: 2em;
+}
+
+.container-gallery > .item-image:hover .hover{
+	height: 100%;
+}
+
+.btn-mas-info{
+	padding: 10px 20px;
+	background-color: #003058;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	width: auto;
+	border-radius: 0;
+	margin: 50px auto;
+	font-family: 'VWHead-Bold';
+	position: relative;
+}
+
+.btn-mas-info:hover{
+	color: #fff;
+}
+
+.btn-mas-info:after{
+	content: "MÁS INFORMACIÓN";
+	background-color: #fff;
+	position: absolute;
+	overflow: hidden;
+	padding: 10px 0px;
+	top:0;
+	right:0;
+	left: 0;
+	width: 0;
+	bottom: 0;
+	z-index: 0;
+	color: #003058;
+	-webkit-transition: all .15s ease-out;
+	   -moz-transition: all .15s ease-out;
+	    -ms-transition: all .15s ease-out;
+	     -o-transition: all .15s ease-out;
+	        transition: all .15s ease-out;
+}
+
+.btn-mas-info:hover:after{
+	padding: 10px 20px;
+	width:100%;
+
+}
+
+/*************************************************************************
+	Footer
+************************************************************************/
+#footer{
+	background-color: #003058;
+	width: 100%;
+	padding: 20px 0;
+}
+
+#footer .separador{
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+#footer h3{
+	color: #fff;
+	font-family: 'VWHead-Bold';
+	text-transform: uppercase;
+	font-size: 19px;
+	margin-bottom: 20px;
+}
+
+#footer .sucursal-box{
+	width: auto;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-right: 25px;
+}
+
+#footer .sucursal-box h4{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'VWHead-Bold';
+}
+
+#footer .sucursal-box p{
+	margin: 0;
+	color: #fff;
+	font-size: 13px;
+	font-family: 'VWText-Regular';
+}
+
+#footer .logo{
+	max-width: 200px;
+}
+
+#footer .col-5{
+	max-width: 100%;
+	width: 229px;
+	padding-bottom:20px;
+}
+
+.rrss{
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:  40px;
+	text-align: center;
+}
+
+.rrss > div{
+	display: inline-block;
+	width: auto;
+	padding: 0 10px;
+}
+
+.rrss > div > a{
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.copy{
+	color: #fff;
+	font-size: 12px;
+	font-family: 'VWText-Regular';
+	margin: 10px 0;
+	display: block;
+}
+
+@media (max-width: 1150px){
+
+	#carousel .carousel-inner .carousel-caption{bottom: 20%;max-width: 330px;}
+
+	.form-container .form-body .form-control {
+	    border: none;
+	    border-radius: 0;
+	    margin: 3px 0;
+	    padding: 3px 10px;
+	    height: auto;
+	    font-size: 12px;
+	}
+
+	.form-container .form-header{
+		margin-top: 10%;
+	}
+
+	.form-container .form-header h4{
+		font-size: 1em;
+	}
+
+	.form-container .form-header .fono{
+		font-size: 3em;
+		line-height: 40px;
+	}
+
+	.form-container .form-body{
+		height: 70%;
+	}
+
+	#carousel .carousel-inner .view-title h3 {
+	    margin: 15px 20px;
+	    font-size: 14px;
+	}
+
+	#carousel .carousel-inner .carousel-caption h1 {
+	    font-size: 4em;
+	}
+
+	#carousel .carousel-inner .carousel-caption p {
+	    font-size: 14px;
+	}
+}
+
+@media (max-width: 992px){
+
+	.custom{ width: 100%;}
+	#header span{width: auto;}
+	#header #menu-body{ width: 100%; position: relative;}
+	#menu-body{width: 100%;}
+
+	#header .logo {max-width: 50px; margin-top: 3px;}
+	#header span{font-size: 12px; padding: 15px 0;}
+	#btn-cotizar{text-align: center; float: none !important;}
+	#menu-principal .text-uppercase{text-align: center;}
+	#menu-principal #menu-body{position: absolute;width: 290% !important;top:47px;}
+	#menu-body .menu-container .container-model .container-item{width: 100%;margin-bottom: 10px;}
+	#content-page {margin-top: 52px;}
+	.form-container .form-header{margin-top: 3%;}
+	#carousel .carousel-inner .carousel-caption {bottom: 30%;padding: 0;}
+	.inicio .carousel-inner .carousel-caption h3 { font-size: 1em;}
+	#carousel .carousel-inner .carousel-caption{max-width: 330px;left:20%;}
+	#carousel .carousel-inner .carousel-caption h1, .inicio .carousel-inner .carousel-caption h1 { font-size: 2.3em;}
+	#carousel .carousel-inner .carousel-caption p, .inicio .carousel-inner .carousel-caption p {font-size: 12px;}
+	#menu-body .menu-container .container-model .container-item .btn{font-size: 10px;}
+	.form-container .form-header h4 {font-size: 0.8em;margin: 0px 0 0;}
+	.form-container .btn-enviar{padding: 3px;}
+	.form-container .btn-enviar:after{padding: 3px 0;}
+	.form-container .form-header .fono {line-height: 35px;font-size: 2em;}
+
+	#carousel .carousel-inner .view-title h3 {
+	    margin: 10px 20px;
+	    font-size: 14px;
+	}
+
+}
+
+@media (max-width: 768px){
+	.col-5{ width: 100%;}
+
+	#header .logo {max-width: 50px; margin-top: 3px;}
+	#header span{font-size: 12px; padding: 15px 0;}
+	#btn-cotizar{text-align: center; float: none !important;}
+	#menu-principal .text-uppercase{text-align: center;}
+	#menu-principal:hover #menu-body{height: 0;}
+	#menu-principal #menu-body{overflow-y: scroll;position: absolute;width: 277% !important;top:47px;}
+	#menu-body .menu-container .container-model .container-item{width: 100%;margin-bottom: 10px;}
+	#content-page {margin-top: 52px;}
+	#carousel .carousel-inner .carousel-caption {bottom: 30%;padding: 0;left: 27%;}
+	.inicio .carousel-inner .carousel-caption h3 { font-size: .9em;}
+	#carousel .carousel-inner .carousel-caption h1, .inicio .carousel-inner .carousel-caption h1 { font-size: 2.2em;}
+	#carousel .carousel-inner .carousel-caption p, .inicio .carousel-inner .carousel-caption p {display: none;}
+	.form-container {
+	    position: relative;
+	    right: 0;
+	    width: 100%;
+	    padding: 15px;
+	    margin-bottom: 25px;
+	}
+
+	.expandir{height: auto !important;max-height: 500px;}
+	.container-gallery > .item-image {width: 50%;}
+	.view-title{font-size: 1em;}
+	.view-subtitle{font-size: 2em;}
+	.view-p {font-size: .8em;}
+	.container-gallery > .item-image > .hover .fa{font-size: 1em;}
+}
+
+@media (max-width: 400px){
+	#carousel .carousel-inner .carousel-caption {bottom: 15%;padding: 0;}
+	.inicio .carousel-inner .carousel-caption h3 { font-size: .7em;}
+	#carousel .carousel-inner .carousel-caption h1, .inicio .carousel-inner .carousel-caption h1 { font-size: 1.5em;}
+	#carousel .carousel-inner .view-title h3 {margin: 5px 20px;font-size: 10px;}
+}

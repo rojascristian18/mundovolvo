@@ -1,0 +1,67 @@
+/*
+Volvo Font
+*/
+@font-face {
+  font-family: 'VolvoBroad';
+  src: url("../fonts-volvo/VolvoBroad.otf");
+  src: url('../fonts-volvo/VolvoBroad.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VolvoSansPro-Bold';
+  src: url("../fonts-volvo/VolvoSansPro-Bold_0.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VolvoSansPro-Light';
+  src: url("../fonts-volvo/VolvoSansPro-Light_0.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VolvoSansPro-Medium';
+  src: url("../fonts-volvo/VolvoSansPro-Medium_0.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VolvoSansPro-Regular';
+  src: url("../fonts-volvo/VolvoSansPro-Regular_0.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VWHead-Bold';
+  src: url("../fonts-volvo/VWHead-Bold_1.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VWHead-ExtraBold';
+  src: url("../fonts-volvo/VWHead-ExtraBold_0.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VWHeadline-Black';
+  src: url("../fonts-volvo/VWHeadlineOT-Black.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VWText-Regular';
+  src: url("../fonts-volvo/VWText-Regular_1.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
