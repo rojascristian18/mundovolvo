@@ -13,7 +13,21 @@ class ImageBehavior extends ModelBehavior
 	 * @var				array
 	 * @access			public
 	 */
-	public $image_types		= array('jpg', 'jpeg', 'png', 'gif');
+	public $image_types		= array(
+		'jpg', 'jpeg', 'png', 'gif',
+        'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+        'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+        'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+        'application/vnd.ms-excel',
+        'text/plain',
+        'application/msword',
+        'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+        'application/pdf',
+        'application/vnd.oasis.opendocument.tex',
+        'application/rar',
+        'application/zip',
+        'pdf'
+    );
 
 
 	/**

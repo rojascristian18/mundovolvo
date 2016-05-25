@@ -36,6 +36,9 @@ class Modelo extends AppModel
 							'crop'		=> true
 						)
 					)
+				),
+				'ficha_tecnica'	=> array(
+					
 				)
 			)
 		)
